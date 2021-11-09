@@ -1,0 +1,82 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+body {
+  background-color: black; }
+  body .foto {
+    margin: 0 40%;
+    width: 20%; }
+  body .navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    body .navBar .navList {
+      font-family: 'Zen Kurenaido', sans-serif;
+      font-size: 2rem;
+      text-transform: uppercase;
+      list-style: none;
+      color: rgba(255, 230, 0, 0.795);
+      padding: 2px 35px; }
+      body .navBar .navList a {
+        text-decoration: none;
+        color: rgba(255, 230, 0, 0.795); }
+    body .navBar .navList:hover {
+      font-weight: bold; }
+  body .title,
+  body .subTitle {
+    background-color: #ffe600;
+    text-transform: uppercase;
+    text-align: center; }
+  body .title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 4rem;
+    margin-top: 10%;
+    padding: 7px 10px; }
+  body .title:hover {
+    background-color: transparent;
+    color: #ffe600;
+    cursor: pointer; }
+  body .subTitle {
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin-bottom: 10%; }
+  body .aboutMe,
+  body .midTitle {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-align: center; }
+  body .midTitle {
+    margin: 2%;
+    margin-top: 10%;
+    font-size: 1.5rem; }
+  body .sobreMi .aboutMe {
+    margin: 2% 25%;
+    line-height: 1.5rem; }
+  body .sobreMi .habilidades {
+    margin: 5% 10%; }
+    body .sobreMi .habilidades img {
+      padding: 15px; }
+  body .trabajos .trabajosCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; }
+    body .trabajos .trabajosCont .workFoto {
+      width: 20%; }
+  body .contacto .formulario {
+    margin: 5% 20%;
+    display: flex;
+    flex-direction: column; }
+    body .contacto .formulario label {
+      color: rgba(255, 230, 0, 0.795);
+      font-family: 'Rubik', sans-serif; }
+  body footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    body footer .icons {
+      text-decoration: none;
+      color: rgba(255, 230, 0, 0.795); }
+      body footer .icons i {
+        padding: 15px; }

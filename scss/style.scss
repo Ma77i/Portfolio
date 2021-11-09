@@ -1,0 +1,136 @@
+@import "variables/color";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+    .foto {
+        margin: 0 40%;
+        width: 20%;
+
+    }
+
+    .navBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .navList {
+            font-family: 'Zen Kurenaido', sans-serif;
+            font-size: 2rem;
+            text-transform: uppercase;
+            list-style: none;
+            color: $yellow;
+            padding: 2px 35px;
+
+            a {
+                text-decoration: none;
+                color: $yellow;
+            }
+        }
+
+        .navList:hover {
+            font-weight: bold;
+
+        }
+    }
+
+    .title,
+    .subTitle {
+        background-color: rgb(255, 230, 0);
+        text-transform: uppercase;
+        text-align: center;
+
+    }
+
+    .title {
+        font-family: 'Rubik', sans-serif;
+        font-size: 4rem;
+        margin-top: 10%;
+        padding: 7px 10px;
+    }
+
+    .title:hover {
+        background-color: transparent;
+        color: rgb(255, 230, 0);
+        cursor: pointer;
+    }
+
+    .subTitle {
+        font-family: 'Zen Kurenaido', sans-serif;
+        margin-bottom: 10%;
+    }
+
+    .aboutMe,
+    .midTitle {
+        font-family: 'Rubik', sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    .midTitle {
+        margin: 2%;
+        margin-top: 10%;
+        font-size: 1.5rem;
+    }
+
+    .sobreMi {
+        .aboutMe {
+            margin: 2% 25%;
+            line-height: 1.5rem;
+        }
+
+        .habilidades {
+            margin: 5% 10%;
+
+            img {
+                padding: 15px;
+            }
+        }
+    }
+
+
+    .trabajos {
+        .trabajosCont {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            .workFoto {
+                width: 20%;
+            }
+        }
+    }
+
+    .contacto {
+        .formulario {
+            margin: 5% 20%;
+            display: flex;
+            flex-direction: column;
+
+            label {
+                color: $yellow;
+                font-family: 'Rubik', sans-serif;
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .icons {
+            text-decoration: none;
+            color: $yellow;
+            i {
+                padding: 15px;
+            }
+        }
+    }
+
+}
